@@ -1,2 +1,2 @@
-BackEnd do blog de historia</n>
+BackEnd do blog de historia</br>
 Banco de dados utilizado: Mysql
