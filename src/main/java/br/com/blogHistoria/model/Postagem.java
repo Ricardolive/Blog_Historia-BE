@@ -30,7 +30,7 @@ public class Postagem {
 	@Size(min=3, max=100, message="O atributo titulo deve conter 3 a 100 caracteres")
 	private String titulo;
 	
-	private String imagem;
+	private String imagem; 
 	
 	@Size(min=3, max=200, message="O atributo descricao deve conter de 3 a 200 caracteres")
 	private String descricao;
