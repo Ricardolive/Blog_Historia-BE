@@ -31,7 +31,7 @@ public class Usuario {
 	
 	private String fotoPerfil;
 	
-	@NotNull(message="O atributo tipo é obrigatorio")
+	 
 	private boolean tipo;
 	
 
