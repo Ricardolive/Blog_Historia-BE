@@ -5,9 +5,10 @@ public class UserLogin {
 	private long id;
 	private String nome;
 	private String foto;
-	private String usuario;
+	private String email;
 	private String senha;
 	private String token;
+	private boolean tipo;
 	
 	
 	
@@ -31,11 +32,12 @@ public class UserLogin {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	public String getUsuario() {
-		return usuario;
+	
+	public String getEmail() {
+		return email;
 	}
-	public void setUsuario(String usuario) {
-		this.usuario = usuario;
+	public void setEmail(String email) {
+		this.email = email;
 	}
 	public String getSenha() {
 		return senha;
@@ -49,6 +51,13 @@ public class UserLogin {
 	public void setToken(String token) {
 		this.token = token;
 	}
+	public boolean isTipo() {
+		return tipo;
+	}
+	public void setTipo(boolean tipo) {
+		this.tipo = tipo;
+	}
+	
 	
 	
 	

@@ -30,7 +30,10 @@ public class Usuario {
 	
 	
 	private String fotoPerfil;
-
+	
+	@NotNull(message="O atributo tipo é obrigatorio")
+	private boolean tipo;
+	
 
 	public long getId() {
 		return id;
@@ -80,6 +83,18 @@ public class Usuario {
 	public void setFotoPerfil(String fotoPerfil) {
 		this.fotoPerfil = fotoPerfil;
 	}
+
+
+	public boolean isTipo() {
+		return tipo;
+	}
+
+
+	public void setTipo(boolean tipo) {
+		this.tipo = tipo;
+	}
+	
+	
 	
 	
 	
