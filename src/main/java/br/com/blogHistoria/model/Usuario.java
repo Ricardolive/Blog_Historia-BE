@@ -31,7 +31,7 @@ public class Usuario {
 	
 	private String fotoPerfil;
 	
-	private int tipo = 0;
+	private String tipo;
 	
 
 	public long getId() {
@@ -84,15 +84,17 @@ public class Usuario {
 	}
 
 
-	public int getTipo() {
+	public String getTipo() {
 		return tipo;
 	}
 
 
-	public void setTipo(int tipo) {
+	public void setTipo(String tipo) {
 		this.tipo = tipo;
 	}
 
+
+	 
 
 	 
 
