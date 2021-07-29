@@ -8,7 +8,7 @@ public class UserLogin {
 	private String email;
 	private String senha;
 	private String token;
-	private boolean tipo;
+	private boolean tipo= false;
 	
 	
 	
@@ -57,6 +57,8 @@ public class UserLogin {
 	public void setTipo(boolean tipo) {
 		this.tipo = tipo;
 	}
+ 
+	 
 	
 	
 	

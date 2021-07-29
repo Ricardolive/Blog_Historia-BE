@@ -32,7 +32,7 @@ public class Usuario {
 	private String fotoPerfil;
 	
 	 
-	private boolean tipo;
+	private boolean tipo = false;
 	
 
 	public long getId() {
@@ -93,6 +93,12 @@ public class Usuario {
 	public void setTipo(boolean tipo) {
 		this.tipo = tipo;
 	}
+
+
+ 
+
+
+	 
 	
 	
 	
