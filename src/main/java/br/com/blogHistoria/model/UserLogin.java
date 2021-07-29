@@ -8,7 +8,7 @@ public class UserLogin {
 	private String email;
 	private String senha;
 	private String token;
-	private boolean tipo= false;
+	private int tipo= 0;
 	
 	
 	
@@ -51,12 +51,14 @@ public class UserLogin {
 	public void setToken(String token) {
 		this.token = token;
 	}
-	public boolean isTipo() {
+	public int getTipo() {
 		return tipo;
 	}
-	public void setTipo(boolean tipo) {
+	public void setTipo(int tipo) {
 		this.tipo = tipo;
 	}
+
+
  
 	 
 	

@@ -31,8 +31,7 @@ public class Usuario {
 	
 	private String fotoPerfil;
 	
-	 
-	private boolean tipo = false;
+	private int tipo = 0;
 	
 
 	public long getId() {
@@ -85,14 +84,17 @@ public class Usuario {
 	}
 
 
-	public boolean isTipo() {
+	public int getTipo() {
 		return tipo;
 	}
 
 
-	public void setTipo(boolean tipo) {
+	public void setTipo(int tipo) {
 		this.tipo = tipo;
 	}
+
+
+	 
 
 
  

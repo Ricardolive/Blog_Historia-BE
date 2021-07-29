@@ -43,7 +43,7 @@ public class UsuarioService {
              user.get().setId(usuario.get().getId());
              user.get().setNome(usuario.get().getNome());
              user.get().setFoto(usuario.get().getFotoPerfil());
-             user.get().setTipo(usuario.get().isTipo());
+             user.get().setTipo(usuario.get().getTipo());
 
              return user;
         }
